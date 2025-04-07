@@ -23,7 +23,7 @@ class Nama {
 class DataMahasiswa103022300163 {
 
   public void ReadJSON() {
-    string jsonString = File.ReadAllText("tp7_1_103022300163.json");
+    string jsonString = File.ReadAllText("tp7_1_103022330140.json");
 
     try {
       Data data = JsonSerializer.Deserialize<Data>(jsonString);
