@@ -13,4 +13,10 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="tp7_2_103022300163.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
