@@ -2,13 +2,13 @@
 
 class Program {
   public static void Main(string[] args) {
-    DataMahasiswa103022300163 data = new DataMahasiswa103022300163();
+    DataMahasiswa103022330140 data = new DataMahasiswa103022330140();
 
     data.ReadJSON();
     
     Console.WriteLine("");
 
-    KuliahMahasiswa103022300163 dataKuliah = new KuliahMahasiswa103022300163();
+    KuliahMahasiswa103022330140 dataKuliah = new KuliahMahasiswa103022330140();
 
     dataKuliah.ReadJSON();
   }

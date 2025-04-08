@@ -14,10 +14,10 @@ class Course {
   public string Name { get; set; }
 }
 
-class KuliahMahasiswa103022300163 {
+class KuliahMahasiswa103022330140 {
 
   public void ReadJSON() {
-    string jsonString = File.ReadAllText("tp7_2_103022300163.json");
+    string jsonString = File.ReadAllText("tp7_2_103022330140.json");
 
     try {
       DataKuliah data = JsonSerializer.Deserialize<DataKuliah>(jsonString);

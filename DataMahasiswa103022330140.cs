@@ -20,10 +20,10 @@ class Nama {
   public string Belakang { get; set; }
 }
 
-class DataMahasiswa103022300163 {
+class DataMahasiswa103022330140 {
 
   public void ReadJSON() {
-    string jsonString = File.ReadAllText("tp7_1_103022300163.json");
+        string jsonString = File.ReadAllText("tp7_1_103022330140.json");
 
     try {
       Data data = JsonSerializer.Deserialize<Data>(jsonString);
