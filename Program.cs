@@ -3,25 +3,36 @@
 class Program {
   public static void Main(string[] args) {
     // Naufal
-    DataMahasiswa103022300163 data = new DataMahasiswa103022300163();
+    DataMahasiswa103022300163 dataN = new DataMahasiswa103022300163();
 
-    data.ReadJSON();
+    dataN.ReadJSON();
     
     Console.WriteLine("");
 
-    KuliahMahasiswa103022300163 dataKuliah = new KuliahMahasiswa103022300163();
+    KuliahMahasiswa103022300163 dataKuliahN = new KuliahMahasiswa103022300163();
 
-    dataKuliah.ReadJSON();
+    dataKuliahN.ReadJSON();
     
     // Fathir
-    DataMahasiswa103022300009 data = new DataMahasiswa103022300009();
+    DataMahasiswa103022300009 dataF = new DataMahasiswa103022300009();
 
-    data.ReadJSON();
+    dataF.ReadJSON();
 
     Console.WriteLine("");
 
-    DataMahasiswa103022300009 dataKuliah = new DataMahasiswa103022300009();
+    DataMahasiswa103022300009 dataKuliahF = new DataMahasiswa103022300009();
 
-    dataKuliah.ReadJSON();
+    dataKuliahF.ReadJSON();
+    
+    // Haidar
+    DataMahasiswa103022330140 dataH = new DataMahasiswa103022330140();
+
+    dataH.ReadJSON();
+    
+    Console.WriteLine("");
+
+    KuliahMahasiswa103022330140 dataKuliahH = new KuliahMahasiswa103022330140();
+
+    dataKuliahH.ReadJSON();
   }
 }
